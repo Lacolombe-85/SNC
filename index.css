@@ -1,0 +1,49 @@
+#header{
+    height: 70px;
+    background-color: green;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyQTwzcFtChF-vUbUeCRPJYlQaxO6BYDJ2ag&usqp=CAU);
+
+    background-repeat: no-repeat;
+
+}
+
+
+.blog-post{
+    height: 300px;
+    width: 450px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px; 
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 1s ease;
+}
+.blog-post:hover{
+    background-color: rgb(226, 43, 165);
+    transform: rotate(10deg);
+}
+.footer{
+    height: 70px;
+    width: 500px;
+    background-color: gray;
+    text-align: center;
+
+}
+
+p{text-align: right;
+border: solid;
+text-transform: uppercase;
+
+}
+ 
+
+
+
+
+
+
